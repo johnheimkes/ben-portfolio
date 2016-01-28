@@ -1,0 +1,52 @@
+@media (min-width: 992px) and (max-width: 1199px) {
+    
+}
+
+@media (min-width: 992px) {
+    
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    
+}
+
+@media (max-width: 767px) {
+    /*------ Header ------*/
+    .header {
+        padding: 10px;
+        text-align: center;
+    }
+    
+    .header > .container {
+        padding-bottom: 10px;
+    }
+    
+    .header-utility {
+        text-align: center;
+    }
+    
+    #menu-main-nav {
+        display: inline-block;
+        margin-top: 10px;
+        float: none !important;
+    }
+    
+    .main-nav > li > a {
+        font-size: 14px;
+    }
+
+    /*------ Headings ------*/
+    .hdg-1 { font-size: 26px; }
+    .hdg-2 { font-size: 19px; }
+    .hdg-3 { font-size: 14px; }
+    .hdg-4 { font-size: 13px; }
+    .hdg-5 { font-size: 12px; }
+    .hdg-6 { font-size: 12px; }
+
+    .wysiwyg h1 { font-size: 26px; }
+    .wysiwyg h2 { font-size: 19px; }
+    .wysiwyg h3 { font-size: 14px; }
+    .wysiwyg h4 { font-size: 13px; }
+    .wysiwyg h5 { font-size: 12px; }
+    .wysiwyg h6 { font-size: 12px; }
+}
