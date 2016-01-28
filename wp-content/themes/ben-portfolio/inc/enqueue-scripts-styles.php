@@ -10,13 +10,13 @@ add_action( 'wp_enqueue_scripts', 'enqueue_styles' );
 function enqueue_scripts()
 {
     wp_register_script(
-        'americart-bootstrap',
+        'bp-bootstrap',
         BP_BOOTSTRAP_ASSETS_URL . 'js/bootstrap.min.js',
         array( 'jquery' )
     );
 
     wp_register_script(
-        'americart-global',
+        'bp-global',
         BP_THEME_PATH_URL . 'js/global.js',
         array( 'jquery' )
     );
@@ -27,10 +27,10 @@ function enqueue_scripts()
         array( 'jquery' )
     );
     
-    // Queue the scripts. Note that because americart-bootstrap was registered
+    // Queue the scripts. Note that because bp-bootstrap was registered
     // with jquery as a dependency, it does not need to be enqueued here.
-    wp_enqueue_script( 'americart-bootstrap' );
-    wp_enqueue_script( 'americart-global' );
+    wp_enqueue_script( 'bp-bootstrap' );
+    wp_enqueue_script( 'bp-global' );
 }
 
 /**
@@ -48,33 +48,33 @@ function enqueue_styles()
     );
 
     wp_register_style(
-        'americart-layout',
+        'bp-layout',
         BP_THEME_PATH_URL . 'css/layout.css',
         array( 'bootstrap' )
     );
 
     wp_register_style(
-        'americart-global',
+        'bp-global',
         BP_THEME_PATH_URL . 'css/global.css',
         array( 'bootstrap' )
     );
 
     wp_register_style(
-        'americart-responsive',
+        'bp-responsive',
         BP_THEME_PATH_URL . 'css/responsive.css',
         array( 'bootstrap' )
     );
 
     wp_register_style(
-        'americart-typography',
+        'bp-typography',
         BP_THEME_PATH_URL . 'css/typography.css',
         array( 'bootstrap' )
     );
 
     wp_enqueue_style( 'bootstrap' );
-    wp_enqueue_style( 'americart-typography' );
-    wp_enqueue_style( 'americart-global' );
-    wp_enqueue_style( 'americart-layout' );
-    wp_enqueue_style( 'americart-responsive' );
+    wp_enqueue_style( 'bp-typography' );
+    wp_enqueue_style( 'bp-global' );
+    wp_enqueue_style( 'bp-layout' );
+    wp_enqueue_style( 'bp-responsive' );
 
 }

@@ -8,8 +8,8 @@
  */
 ?>
 
-<div class="footer">
-
+<div class="footer text-center">
+    <small>&copy; Copyright <?php echo date('Y'); ?> Ben Nguyen. All rights reserved</small>
 </div>
 <?php wp_footer(); ?>
 </body>

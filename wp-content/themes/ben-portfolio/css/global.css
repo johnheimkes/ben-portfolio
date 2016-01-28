@@ -18,7 +18,7 @@ img {
 }
 
 /*--- Override Bootstrap's default container size ---*/
-.container { max-width: 960px; }
+.container { max-width: 860px; }
 
 /* -----------------------------------------------------------
  Lists
@@ -100,7 +100,7 @@ img {
 .text-orange { color: #f37128; }
 
 /*------ Font choices ------*/
-.text-helvetica { font-family: Helvetica, "Times New Roman", serif;}
+.text-helvetica { font-family: Helvetica, Arial, serif; }
 
 /* -----------------------------------------------------------
  Backgrounds
@@ -138,7 +138,7 @@ img {
 -------------------------------------------------------------- */
 .wysiwyg {
     overflow: hidden;
-    line-height: 1.75;
+    line-height: 1.25;
 }
 
 .wysiwyg > *:first-child { margin-top: 0; }
