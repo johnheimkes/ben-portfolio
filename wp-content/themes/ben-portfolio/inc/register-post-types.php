@@ -5,7 +5,7 @@
  * @category BP_Theme
  * @package BP_Theme
  * @subpackage Functions_Register_PostTypes
- * @author John Heimkes <john@ackmanndickenson.com>
+ * @author John Heimkes <john@markupisart.com>
  * @version 1.0
  */
 

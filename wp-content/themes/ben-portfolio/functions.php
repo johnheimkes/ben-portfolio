@@ -4,7 +4,7 @@
  * BP Theme
  *
  * @package Functions
- * @author  John Heimkes <john@ackmanndickenson.com>
+ * @author  John Heimkes <john@markupisart.com>
  * @version 1.0
  */
 
@@ -31,7 +31,7 @@ include_once( 'inc/_krumo/class.krumo.php' );
  * Theme init class
  *
  * @package BP_Theme
- * @author John Heimkes <john@ackmanndickenson.com>
+ * @author John Heimkes <john@markupisart.com>
  */
 class BP_Theme
 {

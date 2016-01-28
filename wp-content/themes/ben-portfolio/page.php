@@ -3,7 +3,7 @@
  * BP Theme
  *
  * @package Page
- * @author  John Heimkes <john@ackmanndickenson.com>
+ * @author  John Heimkes <john@markupisart.com>
  * @version 1.0
  */
 
