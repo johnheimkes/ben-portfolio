@@ -1,0 +1,268 @@
+/* -----------------------------------------------------------
+ Global
+-------------------------------------------------------------- */
+body {
+    font-size: 16px;
+    font-family: 'Nunito', sans-serif;
+    color: #717272;
+}
+
+div { position: relative; }
+
+a { color: #f37128; }
+a:hover { color: #ad511c; }
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/*--- Override Bootstrap's default container size ---*/
+.container { max-width: 960px; }
+
+/* -----------------------------------------------------------
+ Lists
+-------------------------------------------------------------- */
+.h-list {
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.h-list > * {
+    float: left;
+}
+
+.v-list {
+    padding-left: 0;
+    list-style: none;
+    line-height: 1.75;
+}
+
+/* -----------------------------------------------------------
+ Helper Classes
+-------------------------------------------------------------- */
+/*--- Display helpers ---*/
+.inline-block { display: inline-block !important; }
+.block { display: block; }
+
+/*--- Position helpers ---*/
+.relative { position: relative; }
+.absolute { position: absolute; }
+.block-center { margin: 0 auto; }
+
+.vertical-content-outer {
+    display: table;
+    height: 100%;
+    width: 100%;
+}
+
+.vertical-content-inner {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+
+/*--- Text display helpers ---*/
+.text-indent { text-indent: -9999px; }
+
+/* -----------------------------------------------------------
+ Text and Headings
+-------------------------------------------------------------- */
+/*------ Weights and Styles ------*/
+.text-bold { font-weight: 700; }
+.text-normal { font-weight: 400; }
+.text-light { font-weight: 300; }
+.text-italic { font-style: italic; }
+
+.text-shadow { text-shadow: 0px 1px 5px rgba(0, 0, 0, .6); }
+
+/*------ Sizes ------*/
+.hdg {
+    line-height: 1;
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito', sans-serif;
+}
+
+.hdg-1 { font-size: 32px; }
+.hdg-2 { font-size: 24px; }
+.hdg-3 { font-size: 18px; }
+.hdg-4 { font-size: 16px; }
+.hdg-5 { font-size: 14px; }
+.hdg-6 { font-size: 12px; }
+
+/*------ Non-traditional sizes ------*/
+
+
+/*------ Colors ------*/
+.text-orange { color: #f37128; }
+
+/*------ Font choices ------*/
+.text-helvetica { font-family: Helvetica, "Times New Roman", serif;}
+
+/* -----------------------------------------------------------
+ Backgrounds
+-------------------------------------------------------------- */
+
+
+/* -----------------------------------------------------------
+ oEmbed
+-------------------------------------------------------------- */
+.embed-container { 
+    position: relative; 
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+    max-width: 100%;
+    height: auto;
+} 
+
+.embed-container iframe,
+.embed-container object,
+.embed-container embed { 
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+/* -----------------------------------------------------------
+ Buttons
+-------------------------------------------------------------- */
+
+/* -----------------------------------------------------------
+ WordPress Core
+-------------------------------------------------------------- */
+.wysiwyg {
+    overflow: hidden;
+    line-height: 1.75;
+}
+
+.wysiwyg > *:first-child { margin-top: 0; }
+
+.wysiwyg h1 { font-size: 32px; }
+.wysiwyg h2 { font-size: 24px; }
+.wysiwyg h3 { font-size: 18px; }
+.wysiwyg h4 { font-size: 16px; }
+.wysiwyg h5 { font-size: 14px; }
+.wysiwyg h6 { font-size: 12px; }
+
+.wysiwyg h1,
+.wysiwyg h2,
+.wysiwyg h3,
+.wysiwyg h4,
+.wysiwyg h5,
+.wysiwyg h6 {
+    color: #f37128;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700;
+}
+
+.wysiwyg a {
+    color: #f37128;
+    text-decoration: underline;
+}
+
+.wysiwyg ul,
+.wysiwyg ol {
+    padding: 5px 25px;
+    line-height: 2;
+}
+
+.wysiwyg strong,
+.wysiwyg hr {
+    color: #f37128;
+}
+
+.wysiwyg hr {
+    display: block;
+    margin: 20px 0;
+    height: 2px;
+    background-color: #f37128;
+    border: none;
+}
+
+.aligncenter,
+div.aligncenter {
+    display: block;
+    margin: 0 auto;
+}
+
+.alignright {
+    float:right;
+}
+
+.alignleft {
+    float: left;
+}
+
+.aligncenter {
+    display: block;
+    margin: 0 auto;
+}
+
+a img.alignright {
+    float: right;
+}
+
+a img.alignleft {
+    float: left;
+}
+
+a img.aligncenter {
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+.wp-caption {
+    background: #efefef;
+    border: 1px solid #f0f0f0;
+    max-width: 96%; /* Image does not overflow the content area */
+    padding: 5px 3px 10px;
+    text-align: center;
+}
+
+.wp-caption.alignnone {
+    margin: 5px 20px 20px 0;
+}
+
+.wp-caption.alignleft {
+    margin: 5px 20px 20px 0;
+}
+
+.wp-caption.alignright {
+    margin: 5px 0 20px 20px;
+}
+
+.wp-caption img {
+    border: 0 none;
+    height: auto;
+    margin: 0;
+    max-width: 98.5%;
+    padding: 0;
+    width: auto;
+}
+
+.wp-caption p.wp-caption-text {
+    font-size: 11px;
+    line-height: 17px;
+    margin: 0;
+    padding: 0 4px 5px;
+}
+
+.size-auto, 
+.size-full,
+.size-large,
+.size-medium,
+.size-thumbnail {
+    max-width: 100%;
+    height: auto;
+}
+
+.sticky {}
+.gallery-caption {}
+.bypostauthor {}
