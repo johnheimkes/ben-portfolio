@@ -3,6 +3,11 @@
 -------------------------------------------------------------- */
 .header {
     padding: 20px 0;
+    position: fixed;
+    right: 0;
+    left: 0;
+    z-index: 1000;
+    background: white;
 }
 
 .header > .container {
@@ -42,6 +47,10 @@
     text-align: center;
 }
 
+.home-section {
+    padding-top: 133px;
+}
+
 .home-section .col-sm-4:last-child a:hover {
     cursor: default;
 }
@@ -50,7 +59,7 @@
  Random
 -------------------------------------------------------------- */
 .page-section {
-    padding-top: 25px;
+    padding-top: 133px;
 }
 /* -----------------------------------------------------------
  Single

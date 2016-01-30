@@ -27,7 +27,7 @@
     
     #menu-main-nav {
         display: inline-block;
-        margin-top: 10px;
+        margin: 10px 0 5px !important;
         float: none !important;
     }
     
@@ -35,6 +35,12 @@
         font-size: 14px;
     }
 
+    /*------ Layout ------*/
+    .page-section,
+    .home-section {
+        padding-top: 181px;
+    }
+    
     /*------ Headings ------*/
     .hdg-1 { font-size: 26px; }
     .hdg-2 { font-size: 19px; }
