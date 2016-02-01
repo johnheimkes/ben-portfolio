@@ -3,7 +3,7 @@
 -------------------------------------------------------------- */
 body {
     font-size: 16px;
-    font-family: 'Nunito', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
     color: #717272;
 }
 
@@ -83,7 +83,7 @@ img {
     line-height: 1;
     margin: 0;
     padding: 0;
-    font-family: 'Nunito', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
 }
 
 .hdg-1 { font-size: 32px; }
@@ -138,7 +138,7 @@ img {
 -------------------------------------------------------------- */
 .wysiwyg {
     overflow: hidden;
-    line-height: 1.25;
+    line-height: 1.35;
 }
 
 .wysiwyg > *:first-child { margin-top: 0; }
@@ -157,7 +157,7 @@ img {
 .wysiwyg h5,
 .wysiwyg h6 {
     color: #f37128;
-    font-family: 'Nunito', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
     font-weight: 700;
 }
 
