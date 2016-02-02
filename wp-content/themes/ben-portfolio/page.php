@@ -11,7 +11,13 @@ get_header();
 ?>
 
 <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
-    
+    <div class="page-section">
+        <div class="container">
+            <div class="wysiwyg">
+                <?php the_content(); ?>
+            </div>
+        </div>
+    </div>
 <?php endwhile; endif; ?>
 
 <?php get_footer(); ?>

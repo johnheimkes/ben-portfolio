@@ -22,8 +22,7 @@ $email = get_field( 'email', 'option' );
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
 
     <link rel="shortcut icon" type="image/x-icon" href="<?php echo BP_THEME_PATH_URL; ?>images/favicon.ico" />
-    <link href='https://fonts.googleapis.com/css?family=Nunito:400,300,700' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Josefin+Sans:400,300,700' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Oxygen:400,300,700' rel='stylesheet' type='text/css' />
 
     <?php wp_head(); ?>
 </head>
