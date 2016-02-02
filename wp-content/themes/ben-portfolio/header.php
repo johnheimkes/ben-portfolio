@@ -53,12 +53,12 @@ $email = get_field( 'email', 'option' );
                             <?php
                             if ( $email )
                             {
-                                echo '<span class="email block hdg-6 text-light"><a href="mailto:' . $email . '">' . $email . '</a></span>';
+                                echo '<span class="email block hdg-5 text-light"><a href="mailto:' . $email . '">' . $email . '</a></span>';
                             }
 
                             if ( $phone )
                             {
-                                echo '<span class="phone block hdg-6 text-light">' . $phone . '</span>';
+                                echo '<span class="phone block hdg-5 text-light">' . $phone . '</span>';
                             }
                             ?>
                         </div>
