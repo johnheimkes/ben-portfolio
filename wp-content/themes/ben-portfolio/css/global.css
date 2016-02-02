@@ -204,18 +204,22 @@ div.aligncenter {
     margin: 0 auto;
 }
 
+img.alignright,
 a img.alignright {
     float: right;
+    margin: 10px 0 10px 10px;
 }
 
+img.alignleft,
 a img.alignleft {
     float: left;
+    margin: 10px 10px 10px 0;
 }
 
+img.aligncenter,
 a img.aligncenter {
     display: block;
-    margin-left: auto;
-    margin-right: auto
+    margin: 10px auto;
 }
 
 .wp-caption {
